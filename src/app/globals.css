@@ -1,0 +1,109 @@
+/* front page */
+
+body {
+  height: 100vh;
+  background-color: #95d662;
+  margin: 0 100px;
+  color: white;
+  font-family: monospace;
+}
+
+.posts-container {
+  border: 1px solid white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.posts-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.posts-container div a {
+  text-decoration: none;
+}
+
+.posts-container div a h3 {
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+  padding: 1rem;
+  margin: 0;
+  color: white;
+  font-family: monospace;
+}
+
+.posts-container div a h3:hover {
+  background-color: #47c674;
+  border-radius: 5px;
+}
+
+.posts-container div a h3:active {
+  transform: translateY(3px);
+}
+
+/* header  */
+
+h1 {
+  text-align: center;
+  background-color: #47c674;
+  padding-top: 5vh;
+  margin-bottom: 1rem;
+  height: 10vh;
+  color: white;
+  font-family: monospace;
+  border-radius: 1rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.sort {
+  color: white;
+  font-family: monospace;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+/* form */
+
+form {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  background-color: transparent;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+}
+
+button:hover {
+  background-color: #47c674;
+}
+
+button:active {
+  transform: translateY(3px);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+}
+
+/* comments styling */
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  gap: 5rem;
+}
